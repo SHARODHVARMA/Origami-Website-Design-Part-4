@@ -1,0 +1,42 @@
+h1{
+    color:#d77092;
+    background-color:#faebd7;
+}
+body{
+    background-color: #f4f4f4;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 85px;
+    
+}
+.grid img{
+    width: 20%;
+    text-align: center;
+}
+.description{
+    font-family: 'Dancing Script', cursive;
+}
+a:link{
+    color: tomato;
+}
+a:visited{
+    color: rgb(27, 13, 235);
+}
+a:hover{
+    color: red;
+}
+.origami:hover{
+    transform:scale(1.1)
+}
+.bodyimg{
+    color: #f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
